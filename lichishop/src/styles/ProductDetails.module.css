@@ -1,0 +1,116 @@
+#productDetails {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px 20px;
+    margin-top: 150px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.details img {
+    display: block;
+    object-fit: cover; 
+}
+
+.image {
+    width: 350px;
+    margin: 80px 50px;
+}
+
+.btn {
+
+    width: 50px;
+    box-shadow: 0 0 1px #333;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.details .box {
+    margin-top: 75px;
+    max-width: 590px;
+    min-width: 200px;
+}
+
+
+.details .box h3 {  
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.box .row {
+    text-align: center;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.box .row h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: lighter;
+}
+.svg{
+    position: absolute;
+    margin-top: -935px;
+    margin-left: -100px;
+}
+.box .row span {
+    color: black;
+}
+
+#textdescription {
+    width: 380px;
+    line-height: 1.5;
+    margin: 50px 0;
+    font-size: 14px;
+    text-align: left;
+}
+.sale{
+    color: red;
+    font-weight: bold;
+}
+.throught{
+    text-decoration: line-through
+}
+
+#card {
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 15px 45px;
+    margin-left: 80px;
+    display: inline-block;
+}
+#cartCnt {
+    position: absolute;
+    top: 9px;
+    right: 230px;
+    color: white;
+    background-color: crimson;
+    border-radius: 50%;
+    padding: 3px 5px;
+    z-index: 99;
+}
+#card:hover {
+    background-color: white;
+    color: #333;
+}
+.share {
+    bottom: 500px;
+}
+.share li {
+    list-style: none;
+    display:  inline-block;
+    padding: 8px;
+}

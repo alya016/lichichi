@@ -1,0 +1,13 @@
+#submit {
+    position: absolute;
+    padding: 11px 30px;
+    margin-left: 10px;
+    border-radius: 3px; 
+    margin-top: 73px;
+}
+
+
+#input {
+    margin-top: 100px;
+    width: 400px;
+}

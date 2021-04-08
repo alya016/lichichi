@@ -1,0 +1,127 @@
+.catImages {
+    width: 350px;
+}
+#category {
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px 20px;
+    max-width: 1300px;
+    width:  100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+.topCategoriesList{
+    list-style: none;
+    color: black;
+    display: inline-block;
+    word-spacing: normal;
+}
+.topCategoriesList a li {
+    color: black;
+}
+.topCategoriesList a li:hover {
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+.topCategories {
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+#category {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    align-items:  center;
+    overflow: hidden;
+}
+.card {
+    min-width: 350px;
+    min-height: 400px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 10px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: none;
+}
+.card h3{
+    margin: 10px 0;
+}
+.card h3 a{
+    text-decoration: none;
+    color: #333;
+}
+.card h3 a:hover{
+    color: crimson;
+}
+.email_subscription {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    }
+    img{
+        margin:0;
+    }
+    h1 {
+    color:#2D4558;
+    margin: 12px;
+    font-size: 32px;
+    }
+    p {
+    color:#4d6477;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .search_input {
+    
+    border-color: transparent;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    line-height: 44px;
+    text-align: initial;
+    width: 200px;
+    padding: 12px;
+    }
+   
+    #subscribe_button_home  {
+    border: none;
+    border-radius: 2px;
+    padding: 1rem 1rem;
+    outline: none;
+    cursor: pointer;
+    min-width: 7rem;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+    margin-left: 20px;
+    background-color: #2D4558;
+    }
+    #subscribe_button_home:hover{
+    background-color: #4d6477;
+    }
+
+
+    .subscription {
+        margin-right: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+
+

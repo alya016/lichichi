@@ -1,0 +1,59 @@
+.log{
+    transform: translate(0, 10%);
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+}
+.framelog
+{
+    border-radius: 5px;
+    padding-bottom: 20px;
+
+  }
+
+  #ima {
+      width: 500px;
+  }
+  .lolog
+  {
+padding-top: 30px;
+font-weight: bold;
+font-size: xx-large;
+text-align: center;
+color:rgb(19, 18, 18);
+}
+#containerlog {
+    line-height: 20px;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    margin-top: -30px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.inplog{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 37.5%;
+}
+.checklog{
+    color: red;
+    font-size: 20px;
+}
+
+.footerlog{
+  text-align: center;
+  color: rgb(20, 20, 20);
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-top: 80px;
+}
+
+.submit {
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
